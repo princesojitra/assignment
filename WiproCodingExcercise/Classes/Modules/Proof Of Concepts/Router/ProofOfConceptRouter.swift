@@ -7,7 +7,6 @@
 
 import UIKit
 
-//
 protocol  ProofOfConceptRouterProtocol:class {
     var navigationController:UINavigationController? {get}
     func routeToDetail()

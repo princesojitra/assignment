@@ -10,12 +10,12 @@ import UIKit
 // ProofOfConcept Feed Module Interactor Protocol
 protocol ProofOfConceptInteractorProtocol:class {
     // The Interactor will inform the Service helper to fatch feeds data from server side and also  inform Presentor with proper outcome of the fatch result
-    func viewDidLoad()
+    func fatchFeedsData(withLoader show:Bool)
 }
 
 // ProofOfConcept Feed Module Interactor 
 class ProofOfConceptInteractor: ProofOfConceptInteractorProtocol {
-    
+  
     private let service : ProofOfConceptServiceProtocol?
     var presenter : ProofOfConceptPresenter?
     private var profocConcept:ProofConceptModel?
@@ -24,8 +24,8 @@ class ProofOfConceptInteractor: ProofOfConceptInteractorProtocol {
         self.service = profOfConcept
     }
     
-    func viewDidLoad() {
-        self.service?.getProofOfConepts(completionHandler: { (result) in
+    func fatchFeedsData(withLoader show :Bool) {
+        self.service?.getProofOfConeptsFeeds(withLoader: show, completionHandler: { (result) in
             switch result {
             case .failure(let error):
                 self.presenter?.interactor(self, didRetriveFailProofOfConcpet: error)

@@ -104,7 +104,6 @@ class APIManager: NSObject {
         return .Development
     }
   
-    
     //Get baseurl based on server type
     lazy var baseURL: String = {
         return APIManager.server.baseUrl

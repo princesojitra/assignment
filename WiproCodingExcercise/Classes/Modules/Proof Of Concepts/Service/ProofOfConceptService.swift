@@ -9,23 +9,26 @@ import UIKit
 
 // ProofOfConcept Feed Service Helper Protocol
 protocol  ProofOfConceptServiceProtocol:class {
-    func getProofOfConepts(completionHandler: @escaping ReesultComplitionBlock)
+    func getProofOfConeptsFeeds(withLoader show:Bool,completionHandler: @escaping ReesultComplitionBlock)
 }
 
 // ProofOfConcept Feed Service Helper Module 
 class ProofOfConceptService: ProofOfConceptServiceProtocol {
     
+    
     static let shared = { ProofOfConceptService() }()
     let apiClient = APIClient()
     
-    
     //Get ProofOfConcepts from server
-    func getProofOfConepts(completionHandler: @escaping ReesultComplitionBlock){
-        activityIndicator()
+    func getProofOfConeptsFeeds(withLoader show: Bool, completionHandler: @escaping ReesultComplitionBlock) {
+        if show {
+            activityIndicator()
+        }
         let endPointPath = configureEndointPath(withPath: Endpoints.ProofOfConcepts)
-        let endpointProofOfConcept = APIEndpoint(path: endPointPath, method: .get,completion: completionHandler)
+        let endpointProofOfConcept = APIEndpoint(path: endPointPath, method: .get,showLoader: show,completion: completionHandler)
         apiClient.request(withEndpoint: endpointProofOfConcept, decodingType: ProofConceptModel.self)
     }
+    
     
     func configureEndointPath(withPath path:String) -> String {
         return "\(APIManager.shared.baseURL)\(path)"

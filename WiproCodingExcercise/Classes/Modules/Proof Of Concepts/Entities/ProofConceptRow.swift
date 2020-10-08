@@ -24,5 +24,4 @@ struct ProofConceptRow : Codable {
 		title = try values.decodeIfPresent(String.self, forKey: .title)
 	}
 
-
 }

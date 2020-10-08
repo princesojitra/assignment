@@ -12,7 +12,6 @@
 		EAA597FAF8FADF9A1608F079 /* Pods_WiproCodingExcercise_WiproCodingExcerciseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FDF7D46717005091E16993 /* Pods_WiproCodingExcercise_WiproCodingExcerciseUITests.framework */; };
 		F188C907252DD5000073208F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C906252DD5000073208F /* AppDelegate.swift */; };
 		F188C909252DD5000073208F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C908252DD5000073208F /* SceneDelegate.swift */; };
-		F188C90E252DD5000073208F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F188C90C252DD5000073208F /* Main.storyboard */; };
 		F188C910252DD5040073208F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F188C90F252DD5040073208F /* Assets.xcassets */; };
 		F188C913252DD5040073208F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F188C911252DD5040073208F /* LaunchScreen.storyboard */; };
 		F188C91E252DD5040073208F /* WiproCodingExcerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C91D252DD5040073208F /* WiproCodingExcerciseTests.swift */; };
@@ -30,6 +29,9 @@
 		F1D54C3B252F2CD900867764 /* ProofOfConceptInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C3A252F2CD900867764 /* ProofOfConceptInteractor.swift */; };
 		F1D54C40252F2D0100867764 /* ProofOfConceptPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C3F252F2D0100867764 /* ProofOfConceptPresenter.swift */; };
 		F1D54C4F252F3AB900867764 /* ProofOfConceptConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C4E252F3AB900867764 /* ProofOfConceptConfigurator.swift */; };
+		F1D54C58252F3CBB00867764 /* ProofOfConceptTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C56252F3CBB00867764 /* ProofOfConceptTableCell.swift */; };
+		F1D54C59252F3CBB00867764 /* ProofOfConceptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C57252F3CBB00867764 /* ProofOfConceptView.swift */; };
+		F1D54C5E252F3D9B00867764 /* UIImageView+SDWebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C5D252F3D9B00867764 /* UIImageView+SDWebImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +63,6 @@
 		F188C903252DD5000073208F /* WiproCodingExcercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiproCodingExcercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F188C906252DD5000073208F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F188C908252DD5000073208F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F188C90D252DD5000073208F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F188C90F252DD5040073208F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F188C912252DD5040073208F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F188C914252DD5040073208F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,6 +85,9 @@
 		F1D54C3A252F2CD900867764 /* ProofOfConceptInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptInteractor.swift; sourceTree = "<group>"; };
 		F1D54C3F252F2D0100867764 /* ProofOfConceptPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptPresenter.swift; sourceTree = "<group>"; };
 		F1D54C4E252F3AB900867764 /* ProofOfConceptConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProofOfConceptConfigurator.swift; path = "WiproCodingExcercise/Classes/Modules/Proof Of Concepts/ProofOfConceptConfigurator.swift"; sourceTree = SOURCE_ROOT; };
+		F1D54C56252F3CBB00867764 /* ProofOfConceptTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptTableCell.swift; sourceTree = "<group>"; };
+		F1D54C57252F3CBB00867764 /* ProofOfConceptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptView.swift; sourceTree = "<group>"; };
+		F1D54C5D252F3D9B00867764 /* UIImageView+SDWebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+SDWebImage.swift"; sourceTree = "<group>"; };
 		FDE53CC72D8EF9BDB86D641A /* Pods-WiproCodingExcercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproCodingExcercise.debug.xcconfig"; path = "Target Support Files/Pods-WiproCodingExcercise/Pods-WiproCodingExcercise.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -219,7 +223,6 @@
 		F188C93F252DD5470073208F /* Proof Of Concepts */ = {
 			isa = PBXGroup;
 			children = (
-				F1D54C4E252F3AB900867764 /* ProofOfConceptConfigurator.swift */,
 				F188C942252DD5A80073208F /* Entities */,
 				F188C9B3252E00AC0073208F /* Router */,
 				F188C9B4252E00BA0073208F /* Service */,
@@ -227,6 +230,7 @@
 				F188C9B7252E013B0073208F /* ViewController */,
 				F188C9B5252E01030073208F /* Interactor */,
 				F188C9B6252E010F0073208F /* Presenter */,
+				F1D54C4E252F3AB900867764 /* ProofOfConceptConfigurator.swift */,
 			);
 			path = "Proof Of Concepts";
 			sourceTree = "<group>";
@@ -238,7 +242,6 @@
 				F188C9A0252DF0B70073208F /* Constants */,
 				F188C943252DD5BC0073208F /* Managers */,
 				F188C941252DD58D0073208F /* API Endpoints */,
-				F188C945252DD6510073208F /* Services */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -270,13 +273,6 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		F188C945252DD6510073208F /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
 		F188C946252DD6730073208F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,7 +285,6 @@
 		F188C947252DD67C0073208F /* UserInteface */ = {
 			isa = PBXGroup;
 			children = (
-				F188C90C252DD5000073208F /* Main.storyboard */,
 				F188C911252DD5040073208F /* LaunchScreen.storyboard */,
 			);
 			path = UserInteface;
@@ -369,6 +364,8 @@
 		F188CA06252E146B0073208F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F1D54C56252F3CBB00867764 /* ProofOfConceptTableCell.swift */,
+				F1D54C57252F3CBB00867764 /* ProofOfConceptView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -376,6 +373,7 @@
 		F1FB4535252E633C00A4C30F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F1D54C5D252F3D9B00867764 /* UIImageView+SDWebImage.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -490,7 +488,6 @@
 			files = (
 				F188C913252DD5040073208F /* LaunchScreen.storyboard in Resources */,
 				F188C910252DD5040073208F /* Assets.xcassets in Resources */,
-				F188C90E252DD5000073208F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,11 +617,14 @@
 			files = (
 				F188C907252DD5000073208F /* AppDelegate.swift in Sources */,
 				F1D54BF7252F110100867764 /* ProofConceptRow.swift in Sources */,
+				F1D54C5E252F3D9B00867764 /* UIImageView+SDWebImage.swift in Sources */,
 				F1D54BF6252F110100867764 /* ProofConceptModel.swift in Sources */,
 				F1D54C22252F1BFF00867764 /* APIClient.swift in Sources */,
 				F1D54C4F252F3AB900867764 /* ProofOfConceptConfigurator.swift in Sources */,
+				F1D54C59252F3CBB00867764 /* ProofOfConceptView.swift in Sources */,
 				F188C909252DD5000073208F /* SceneDelegate.swift in Sources */,
 				F1D54C18252F144F00867764 /* NetworkManager.swift in Sources */,
+				F1D54C58252F3CBB00867764 /* ProofOfConceptTableCell.swift in Sources */,
 				F1D54C31252F24BE00867764 /* ProofOfConceptService.swift in Sources */,
 				F1D54C3B252F2CD900867764 /* ProofOfConceptInteractor.swift in Sources */,
 				F1D54C36252F24D600867764 /* ProofOfConceptViewController.swift in Sources */,
@@ -668,14 +668,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F188C90C252DD5000073208F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F188C90D252DD5000073208F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F188C911252DD5040073208F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
