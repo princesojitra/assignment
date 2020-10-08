@@ -18,6 +18,8 @@
 		F188C91E252DD5040073208F /* WiproCodingExcerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C91D252DD5040073208F /* WiproCodingExcerciseTests.swift */; };
 		F188C929252DD5040073208F /* WiproCodingExcerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C928252DD5040073208F /* WiproCodingExcerciseUITests.swift */; };
 		F188C9A2252DF0CE0073208F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C9A1252DF0CE0073208F /* Constants.swift */; };
+		F1D54BF6252F110100867764 /* ProofConceptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54BF4252F110100867764 /* ProofConceptModel.swift */; };
+		F1D54BF7252F110100867764 /* ProofConceptRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54BF5252F110100867764 /* ProofConceptRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		F188C928252DD5040073208F /* WiproCodingExcerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproCodingExcerciseUITests.swift; sourceTree = "<group>"; };
 		F188C92A252DD5040073208F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F188C9A1252DF0CE0073208F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F1D54BF4252F110100867764 /* ProofConceptModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofConceptModel.swift; sourceTree = "<group>"; };
+		F1D54BF5252F110100867764 /* ProofConceptRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofConceptRow.swift; sourceTree = "<group>"; };
 		FDE53CC72D8EF9BDB86D641A /* Pods-WiproCodingExcercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproCodingExcercise.debug.xcconfig"; path = "Target Support Files/Pods-WiproCodingExcercise/Pods-WiproCodingExcercise.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -228,6 +232,8 @@
 		F188C942252DD5A80073208F /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				F1D54BF4252F110100867764 /* ProofConceptModel.swift */,
+				F1D54BF5252F110100867764 /* ProofConceptRow.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -583,6 +589,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F188C907252DD5000073208F /* AppDelegate.swift in Sources */,
+				F1D54BF7252F110100867764 /* ProofConceptRow.swift in Sources */,
+				F1D54BF6252F110100867764 /* ProofConceptModel.swift in Sources */,
 				F188C909252DD5000073208F /* SceneDelegate.swift in Sources */,
 				F188C9A2252DF0CE0073208F /* Constants.swift in Sources */,
 			);
