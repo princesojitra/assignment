@@ -8,15 +8,15 @@
 import UIKit
 
 // ProofOfConcept Feed Service Helper Protocol
-protocol  ProofOfConceptServiceProtocol:class {
+protocol  ProofOfConceptFeedServiceProtocol:class {
     func getProofOfConeptsFeeds(withLoader show:Bool,completionHandler: @escaping ReesultComplitionBlock)
 }
 
 // ProofOfConcept Feed Service Helper Module 
-class ProofOfConceptService: ProofOfConceptServiceProtocol {
+class ProofOfConceptFeedService: ProofOfConceptFeedServiceProtocol {
     
     
-    static let shared = { ProofOfConceptService() }()
+    static let shared = { ProofOfConceptFeedService() }()
     let apiClient = APIClient()
     
     //Get ProofOfConcepts from server

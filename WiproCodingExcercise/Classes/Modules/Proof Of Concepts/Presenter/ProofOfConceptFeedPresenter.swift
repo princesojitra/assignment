@@ -8,11 +8,11 @@
 import UIKit
 
 // ProofOfConcept Feed Module Presenter Protocol
-protocol  ProofOfConceptPresenterProtocol:class {
+protocol  ProofOfConceptFeedPresenterProtocol:class {
     // The Interactor will inform the Presenter a successful fetch.
-    func interactor(_ interactor: ProofOfConceptInteractor,didRetriveProofOfConcpet profOfConcept:ProofConceptFeedModel)
+    func interactor(_ interactor: ProofOfConceptFeedInteractor,didRetriveProofOfConcpet profOfConcept:ProofConceptFeedModel)
     // The Interactor will inform the Presenter a failed fetch.
-    func interactor(_ interactor: ProofOfConceptInteractor,didRetriveFailProofOfConcpet error:APIError)
+    func interactor(_ interactor: ProofOfConceptFeedInteractor,didRetriveFailProofOfConcpet error:APIError)
 }
 
 
@@ -27,20 +27,20 @@ struct ProofOfConceptItemsViewModel {
 }
 
 // ProofOfConcept Feed Module Presenter
-class ProofOfConceptPresenter {
-    weak var viewController: ProofOfConceptViewProtocol?
+class ProofOfConceptFeedPresenter {
+    weak var viewController: ProofOfConceptFeedViewProtocol?
 }
 
-// MARK: - extending ProofOfConceptPresenter to implement it's protocol
-extension ProofOfConceptPresenter :ProofOfConceptPresenterProtocol {
+// MARK: - extending ProofOfConceptFeedPresenter to implement it's protocol
+extension ProofOfConceptFeedPresenter :ProofOfConceptFeedPresenterProtocol {
     
-    func interactor(_ interactor: ProofOfConceptInteractor, didRetriveFailProofOfConcpet error: APIError) {
+    func interactor(_ interactor: ProofOfConceptFeedInteractor, didRetriveFailProofOfConcpet error: APIError) {
         
         self.viewController?.presenter(navBarTitleViewModel: NavBarTitileViewModel(title: ""))
         self.viewController?.presenter(profOfConceptItmesViewModel: ProofOfConceptItemsViewModel(items: [ProofConceptRow]()))
     }
     
-    func interactor(_ interactor: ProofOfConceptInteractor, didRetriveProofOfConcpet profOfConcept: ProofConceptFeedModel) {
+    func interactor(_ interactor: ProofOfConceptFeedInteractor, didRetriveProofOfConcpet profOfConcept: ProofConceptFeedModel) {
         
         let navbarTitleViewModel = NavBarTitileViewModel(title: profOfConcept.title ?? "")
         self.viewController?.presenter(navBarTitleViewModel: navbarTitleViewModel)

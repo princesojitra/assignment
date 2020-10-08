@@ -1,5 +1,5 @@
 //
-//  ProofOfConceptView.swift
+//  ProofOfConceptFeedView.swift
 //  WiproCodingExcercise
 //
 //  Created by Prince Sojitra on 08/10/20.
@@ -8,10 +8,10 @@
 import UIKit
 
 // ProofOfConcept Module View Protocol
-protocol  ProofOfConceptViewProtocol:class {
-    var presenter:ProofOfConceptPresenter? {get set}
-    var interactor:ProofOfConceptInteractor? {get set}
-    var router:ProofOfConceptRouter? {get set}
+protocol  ProofOfConceptFeedViewProtocol:class {
+    var presenter:ProofOfConceptFeedPresenter? {get set}
+    var interactor:ProofOfConceptFeedInteractor? {get set}
+    var router:ProofOfConceptFeedRouter? {get set}
     
     /// Update UI with value returned.
     // Set the view Object of Type NavBarTitileViewModel
@@ -21,12 +21,12 @@ protocol  ProofOfConceptViewProtocol:class {
 }
 
 /// ProofOfConcept Module View
-class ProofOfConceptViewController: UIViewController {
+class ProofOfConceptFeedViewController: UIViewController {
     
-    var presenter: ProofOfConceptPresenter?
-    var interactor: ProofOfConceptInteractor?
-    var router: ProofOfConceptRouter?
-    var profOfConceptView: ProofOfConceptView?
+    var presenter: ProofOfConceptFeedPresenter?
+    var interactor: ProofOfConceptFeedInteractor?
+    var router: ProofOfConceptFeedRouter?
+    var profOfConceptView: ProofOfConceptFeedView?
     
     private var items: [ProofConceptRow] = []
     
@@ -51,8 +51,8 @@ class ProofOfConceptViewController: UIViewController {
     }
 }
 
-// MARK: - extending ProofOfConceptViewController to implement it's protocol
-extension ProofOfConceptViewController : ProofOfConceptViewProtocol {
+// MARK: - extending ProofOfConceptFeedViewController to implement it's protocol
+extension ProofOfConceptFeedViewController : ProofOfConceptFeedViewProtocol {
     
     func presenter(profOfConceptItmesViewModel: ProofOfConceptItemsViewModel) {
         DispatchQueue.main.async {
@@ -76,7 +76,7 @@ extension ProofOfConceptViewController : ProofOfConceptViewProtocol {
     
 }
 // MARK: - Action Methods
-extension ProofOfConceptViewController {
+extension ProofOfConceptFeedViewController {
 @objc func refreshData(_ refreshControl: UIRefreshControl) {
     self.view.endEditing(true)
     self.interactor?.fatchFeedsData(withLoader: false)
@@ -85,7 +85,7 @@ extension ProofOfConceptViewController {
 }
     
 // MARK: - UITableView DataSource & Delegate
-extension ProofOfConceptViewController: UITableViewDelegate, UITableViewDataSource {
+extension ProofOfConceptFeedViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }

@@ -7,15 +7,15 @@
 
 import UIKit
 
-class ProofOfConceptConfigurator {
+class ProofOfConceptFeedConfigurator {
     
-    static func configureModule(viewController : ProofOfConceptViewController) {
+    static func configureModule(viewController : ProofOfConceptFeedViewController) {
         
         //MARK: Initialise components.
-        let view = ProofOfConceptView()
-        let interactor = ProofOfConceptInteractor(withService: ProofOfConceptService())
-        let presenter = ProofOfConceptPresenter()
-        let router = ProofOfConceptRouter()
+        let view = ProofOfConceptFeedView()
+        let interactor = ProofOfConceptFeedInteractor(withService: ProofOfConceptFeedService())
+        let presenter = ProofOfConceptFeedPresenter()
+        let router = ProofOfConceptFeedRouter()
         
         //MARK: link VIP components.
         viewController.profOfConceptView = view

@@ -15,9 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
        
-        let profOfConceptViewController = ProofOfConceptViewController()
+        let profOfConceptViewController = ProofOfConceptFeedViewController()
         let navigationController = UINavigationController(rootViewController: profOfConceptViewController)
-        ProofOfConceptConfigurator.configureModule(viewController: profOfConceptViewController)
+        ProofOfConceptFeedConfigurator.configureModule(viewController: profOfConceptViewController)
         
         window = UIWindow()
         window?.rootViewController = navigationController

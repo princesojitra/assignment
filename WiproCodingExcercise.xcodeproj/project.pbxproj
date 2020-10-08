@@ -23,14 +23,14 @@
 		F1D54C18252F144F00867764 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C15252F144F00867764 /* NetworkManager.swift */; };
 		F1D54C22252F1BFF00867764 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C21252F1BFF00867764 /* APIClient.swift */; };
 		F1D54C27252F1CCA00867764 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C26252F1CCA00867764 /* Endpoints.swift */; };
-		F1D54C2C252F24AB00867764 /* ProofOfConceptRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C2B252F24AB00867764 /* ProofOfConceptRouter.swift */; };
-		F1D54C31252F24BE00867764 /* ProofOfConceptService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C30252F24BE00867764 /* ProofOfConceptService.swift */; };
-		F1D54C36252F24D600867764 /* ProofOfConceptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C35252F24D600867764 /* ProofOfConceptViewController.swift */; };
-		F1D54C3B252F2CD900867764 /* ProofOfConceptInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C3A252F2CD900867764 /* ProofOfConceptInteractor.swift */; };
-		F1D54C40252F2D0100867764 /* ProofOfConceptPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C3F252F2D0100867764 /* ProofOfConceptPresenter.swift */; };
-		F1D54C4F252F3AB900867764 /* ProofOfConceptConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C4E252F3AB900867764 /* ProofOfConceptConfigurator.swift */; };
+		F1D54C2C252F24AB00867764 /* ProofOfConceptFeedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C2B252F24AB00867764 /* ProofOfConceptFeedRouter.swift */; };
+		F1D54C31252F24BE00867764 /* ProofOfConceptFeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C30252F24BE00867764 /* ProofOfConceptFeedService.swift */; };
+		F1D54C36252F24D600867764 /* ProofOfConceptFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C35252F24D600867764 /* ProofOfConceptFeedViewController.swift */; };
+		F1D54C3B252F2CD900867764 /* ProofOfConceptFeedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C3A252F2CD900867764 /* ProofOfConceptFeedInteractor.swift */; };
+		F1D54C40252F2D0100867764 /* ProofOfConceptFeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C3F252F2D0100867764 /* ProofOfConceptFeedPresenter.swift */; };
+		F1D54C4F252F3AB900867764 /* ProofOfConceptFeedConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C4E252F3AB900867764 /* ProofOfConceptFeedConfigurator.swift */; };
 		F1D54C58252F3CBB00867764 /* ProofOfConceptTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C56252F3CBB00867764 /* ProofOfConceptTableCell.swift */; };
-		F1D54C59252F3CBB00867764 /* ProofOfConceptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C57252F3CBB00867764 /* ProofOfConceptView.swift */; };
+		F1D54C59252F3CBB00867764 /* ProofOfConceptFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C57252F3CBB00867764 /* ProofOfConceptFeedView.swift */; };
 		F1D54C5E252F3D9B00867764 /* UIImageView+SDWebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C5D252F3D9B00867764 /* UIImageView+SDWebImage.swift */; };
 /* End PBXBuildFile section */
 
@@ -79,14 +79,14 @@
 		F1D54C15252F144F00867764 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F1D54C21252F1BFF00867764 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		F1D54C26252F1CCA00867764 /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
-		F1D54C2B252F24AB00867764 /* ProofOfConceptRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptRouter.swift; sourceTree = "<group>"; };
-		F1D54C30252F24BE00867764 /* ProofOfConceptService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptService.swift; sourceTree = "<group>"; };
-		F1D54C35252F24D600867764 /* ProofOfConceptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptViewController.swift; sourceTree = "<group>"; };
-		F1D54C3A252F2CD900867764 /* ProofOfConceptInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptInteractor.swift; sourceTree = "<group>"; };
-		F1D54C3F252F2D0100867764 /* ProofOfConceptPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptPresenter.swift; sourceTree = "<group>"; };
-		F1D54C4E252F3AB900867764 /* ProofOfConceptConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProofOfConceptConfigurator.swift; path = "WiproCodingExcercise/Classes/Modules/Proof Of Concepts/ProofOfConceptConfigurator.swift"; sourceTree = SOURCE_ROOT; };
+		F1D54C2B252F24AB00867764 /* ProofOfConceptFeedRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptFeedRouter.swift; sourceTree = "<group>"; };
+		F1D54C30252F24BE00867764 /* ProofOfConceptFeedService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptFeedService.swift; sourceTree = "<group>"; };
+		F1D54C35252F24D600867764 /* ProofOfConceptFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptFeedViewController.swift; sourceTree = "<group>"; };
+		F1D54C3A252F2CD900867764 /* ProofOfConceptFeedInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptFeedInteractor.swift; sourceTree = "<group>"; };
+		F1D54C3F252F2D0100867764 /* ProofOfConceptFeedPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptFeedPresenter.swift; sourceTree = "<group>"; };
+		F1D54C4E252F3AB900867764 /* ProofOfConceptFeedConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProofOfConceptFeedConfigurator.swift; path = "WiproCodingExcercise/Classes/Modules/Proof Of Concepts/ProofOfConceptFeedConfigurator.swift"; sourceTree = SOURCE_ROOT; };
 		F1D54C56252F3CBB00867764 /* ProofOfConceptTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptTableCell.swift; sourceTree = "<group>"; };
-		F1D54C57252F3CBB00867764 /* ProofOfConceptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptView.swift; sourceTree = "<group>"; };
+		F1D54C57252F3CBB00867764 /* ProofOfConceptFeedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptFeedView.swift; sourceTree = "<group>"; };
 		F1D54C5D252F3D9B00867764 /* UIImageView+SDWebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+SDWebImage.swift"; sourceTree = "<group>"; };
 		FDE53CC72D8EF9BDB86D641A /* Pods-WiproCodingExcercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproCodingExcercise.debug.xcconfig"; path = "Target Support Files/Pods-WiproCodingExcercise/Pods-WiproCodingExcercise.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -230,7 +230,7 @@
 				F188C9B7252E013B0073208F /* ViewController */,
 				F188C9B5252E01030073208F /* Interactor */,
 				F188C9B6252E010F0073208F /* Presenter */,
-				F1D54C4E252F3AB900867764 /* ProofOfConceptConfigurator.swift */,
+				F1D54C4E252F3AB900867764 /* ProofOfConceptFeedConfigurator.swift */,
 			);
 			path = "Proof Of Concepts";
 			sourceTree = "<group>";
@@ -324,7 +324,7 @@
 		F188C9B3252E00AC0073208F /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				F1D54C2B252F24AB00867764 /* ProofOfConceptRouter.swift */,
+				F1D54C2B252F24AB00867764 /* ProofOfConceptFeedRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -332,7 +332,7 @@
 		F188C9B4252E00BA0073208F /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				F1D54C30252F24BE00867764 /* ProofOfConceptService.swift */,
+				F1D54C30252F24BE00867764 /* ProofOfConceptFeedService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -340,7 +340,7 @@
 		F188C9B5252E01030073208F /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				F1D54C3A252F2CD900867764 /* ProofOfConceptInteractor.swift */,
+				F1D54C3A252F2CD900867764 /* ProofOfConceptFeedInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -348,7 +348,7 @@
 		F188C9B6252E010F0073208F /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				F1D54C3F252F2D0100867764 /* ProofOfConceptPresenter.swift */,
+				F1D54C3F252F2D0100867764 /* ProofOfConceptFeedPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -356,7 +356,7 @@
 		F188C9B7252E013B0073208F /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F1D54C35252F24D600867764 /* ProofOfConceptViewController.swift */,
+				F1D54C35252F24D600867764 /* ProofOfConceptFeedViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -365,7 +365,7 @@
 			isa = PBXGroup;
 			children = (
 				F1D54C56252F3CBB00867764 /* ProofOfConceptTableCell.swift */,
-				F1D54C57252F3CBB00867764 /* ProofOfConceptView.swift */,
+				F1D54C57252F3CBB00867764 /* ProofOfConceptFeedView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -620,19 +620,19 @@
 				F1D54C5E252F3D9B00867764 /* UIImageView+SDWebImage.swift in Sources */,
 				F1D54BF6252F110100867764 /* ProofConceptFeedModel.swift in Sources */,
 				F1D54C22252F1BFF00867764 /* APIClient.swift in Sources */,
-				F1D54C4F252F3AB900867764 /* ProofOfConceptConfigurator.swift in Sources */,
-				F1D54C59252F3CBB00867764 /* ProofOfConceptView.swift in Sources */,
+				F1D54C4F252F3AB900867764 /* ProofOfConceptFeedConfigurator.swift in Sources */,
+				F1D54C59252F3CBB00867764 /* ProofOfConceptFeedView.swift in Sources */,
 				F188C909252DD5000073208F /* SceneDelegate.swift in Sources */,
 				F1D54C18252F144F00867764 /* NetworkManager.swift in Sources */,
 				F1D54C58252F3CBB00867764 /* ProofOfConceptTableCell.swift in Sources */,
-				F1D54C31252F24BE00867764 /* ProofOfConceptService.swift in Sources */,
-				F1D54C3B252F2CD900867764 /* ProofOfConceptInteractor.swift in Sources */,
-				F1D54C36252F24D600867764 /* ProofOfConceptViewController.swift in Sources */,
-				F1D54C40252F2D0100867764 /* ProofOfConceptPresenter.swift in Sources */,
+				F1D54C31252F24BE00867764 /* ProofOfConceptFeedService.swift in Sources */,
+				F1D54C3B252F2CD900867764 /* ProofOfConceptFeedInteractor.swift in Sources */,
+				F1D54C36252F24D600867764 /* ProofOfConceptFeedViewController.swift in Sources */,
+				F1D54C40252F2D0100867764 /* ProofOfConceptFeedPresenter.swift in Sources */,
 				F188C9A2252DF0CE0073208F /* Constants.swift in Sources */,
 				F1D54C27252F1CCA00867764 /* Endpoints.swift in Sources */,
 				F1D54C17252F144F00867764 /* APIManager.swift in Sources */,
-				F1D54C2C252F24AB00867764 /* ProofOfConceptRouter.swift in Sources */,
+				F1D54C2C252F24AB00867764 /* ProofOfConceptFeedRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

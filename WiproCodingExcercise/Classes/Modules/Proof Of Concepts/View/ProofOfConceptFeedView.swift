@@ -1,5 +1,5 @@
 //
-//  ProofOfConceptView.swift
+//  ProofOfConceptFeedView.swift
 //  WiproCodingExcercise
 //
 //  Created by Prince Sojitra on 08/10/20.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ProofOfConceptView: UIView {
+class ProofOfConceptFeedView: UIView {
     
     // MARK: - Initialization
     override init(frame: CGRect) {
@@ -66,7 +66,7 @@ class ProofOfConceptView: UIView {
 }
 
 // MARK: - UI Setup
-extension ProofOfConceptView {
+extension ProofOfConceptFeedView {
     private func setupUI() {
         if #available(iOS 13.0, *) {
             overrideUserInterfaceStyle = .light

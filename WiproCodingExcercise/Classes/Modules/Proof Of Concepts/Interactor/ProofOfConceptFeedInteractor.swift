@@ -1,5 +1,5 @@
 //
-//  ProofOfConceptInteractor.swift
+//  ProofOfConceptFeedInteractor.swift
 //  WiproCodingExcercise
 //
 //  Created by Prince Sojitra on 08/10/20.
@@ -8,19 +8,19 @@
 import UIKit
 
 // ProofOfConcept Feed Module Interactor Protocol
-protocol ProofOfConceptInteractorProtocol:class {
+protocol ProofOfConceptFeedInteractorProtocol:class {
     // The Interactor will inform the Service helper to fatch feeds data from server side and also  inform Presentor with proper outcome of the fatch result
     func fatchFeedsData(withLoader show:Bool)
 }
 
 // ProofOfConcept Feed Module Interactor 
-class ProofOfConceptInteractor: ProofOfConceptInteractorProtocol {
+class ProofOfConceptFeedInteractor: ProofOfConceptFeedInteractorProtocol {
   
-    private let service : ProofOfConceptServiceProtocol?
-    var presenter : ProofOfConceptPresenter?
+    private let service : ProofOfConceptFeedServiceProtocol?
+    var presenter : ProofOfConceptFeedPresenter?
     private var profocConcept:ProofConceptFeedModel?
     
-    required init(withService profOfConcept:ProofOfConceptServiceProtocol ) {
+    required init(withService profOfConcept:ProofOfConceptFeedServiceProtocol ) {
         self.service = profOfConcept
     }
     
