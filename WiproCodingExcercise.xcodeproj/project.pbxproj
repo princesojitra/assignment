@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F188C907252DD5000073208F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C906252DD5000073208F /* AppDelegate.swift */; };
+		F188C909252DD5000073208F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C908252DD5000073208F /* SceneDelegate.swift */; };
+		F188C90E252DD5000073208F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F188C90C252DD5000073208F /* Main.storyboard */; };
+		F188C910252DD5040073208F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F188C90F252DD5040073208F /* Assets.xcassets */; };
+		F188C913252DD5040073208F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F188C911252DD5040073208F /* LaunchScreen.storyboard */; };
+		F188C91E252DD5040073208F /* WiproCodingExcerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C91D252DD5040073208F /* WiproCodingExcerciseTests.swift */; };
+		F188C929252DD5040073208F /* WiproCodingExcerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C928252DD5040073208F /* WiproCodingExcerciseUITests.swift */; };
+		F188C9A2252DF0CE0073208F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C9A1252DF0CE0073208F /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F188C91A252DD5040073208F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F188C8FB252DD5000073208F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F188C902252DD5000073208F;
+			remoteInfo = WiproCodingExcercise;
+		};
+		F188C925252DD5040073208F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F188C8FB252DD5000073208F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F188C902252DD5000073208F;
+			remoteInfo = WiproCodingExcercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F188C903252DD5000073208F /* WiproCodingExcercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiproCodingExcercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F188C906252DD5000073208F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F188C908252DD5000073208F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F188C90D252DD5000073208F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F188C90F252DD5040073208F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F188C912252DD5040073208F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F188C914252DD5040073208F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F188C919252DD5040073208F /* WiproCodingExcerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiproCodingExcerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F188C91D252DD5040073208F /* WiproCodingExcerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproCodingExcerciseTests.swift; sourceTree = "<group>"; };
+		F188C91F252DD5040073208F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F188C924252DD5040073208F /* WiproCodingExcerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiproCodingExcerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F188C928252DD5040073208F /* WiproCodingExcerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproCodingExcerciseUITests.swift; sourceTree = "<group>"; };
+		F188C92A252DD5040073208F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F188C9A1252DF0CE0073208F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F188C900252DD5000073208F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188C916252DD5040073208F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188C921252DD5040073208F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F188C8FA252DD5000073208F = {
+			isa = PBXGroup;
+			children = (
+				F188C905252DD5000073208F /* WiproCodingExcercise */,
+				F188C91C252DD5040073208F /* WiproCodingExcerciseTests */,
+				F188C927252DD5040073208F /* WiproCodingExcerciseUITests */,
+				F188C904252DD5000073208F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F188C904252DD5000073208F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F188C903252DD5000073208F /* WiproCodingExcercise.app */,
+				F188C919252DD5040073208F /* WiproCodingExcerciseTests.xctest */,
+				F188C924252DD5040073208F /* WiproCodingExcerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F188C905252DD5000073208F /* WiproCodingExcercise */ = {
+			isa = PBXGroup;
+			children = (
+				F188C939252DD50A0073208F /* Classes */,
+				F188C947252DD67C0073208F /* UserInteface */,
+				F188C949252DD6FA0073208F /* Supporting Files */,
+				F188C946252DD6730073208F /* Resources */,
+			);
+			path = WiproCodingExcercise;
+			sourceTree = "<group>";
+		};
+		F188C91C252DD5040073208F /* WiproCodingExcerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				F188C91D252DD5040073208F /* WiproCodingExcerciseTests.swift */,
+				F188C91F252DD5040073208F /* Info.plist */,
+			);
+			path = WiproCodingExcerciseTests;
+			sourceTree = "<group>";
+		};
+		F188C927252DD5040073208F /* WiproCodingExcerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F188C928252DD5040073208F /* WiproCodingExcerciseUITests.swift */,
+				F188C92A252DD5040073208F /* Info.plist */,
+			);
+			path = WiproCodingExcerciseUITests;
+			sourceTree = "<group>";
+		};
+		F188C939252DD50A0073208F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F188C93E252DD53A0073208F /* App */,
+				F188C93A252DD5130073208F /* Modules */,
+				F188C940252DD5820073208F /* Common */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F188C93A252DD5130073208F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F188C93F252DD5470073208F /* Prof Of Concepts */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F188C93E252DD53A0073208F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F188C906252DD5000073208F /* AppDelegate.swift */,
+				F188C908252DD5000073208F /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F188C93F252DD5470073208F /* Prof Of Concepts */ = {
+			isa = PBXGroup;
+			children = (
+				F188C942252DD5A80073208F /* Entities */,
+				F188C9B3252E00AC0073208F /* Router */,
+				F188C9B4252E00BA0073208F /* Service */,
+				F188CA06252E146B0073208F /* View */,
+				F188C9B7252E013B0073208F /* ViewController */,
+				F188C9B5252E01030073208F /* Interactor */,
+				F188C9B6252E010F0073208F /* Presenter */,
+			);
+			path = "Prof Of Concepts";
+			sourceTree = "<group>";
+		};
+		F188C940252DD5820073208F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F1FB4535252E633C00A4C30F /* Extensions */,
+				F188C9A0252DF0B70073208F /* Constants */,
+				F188C943252DD5BC0073208F /* Managers */,
+				F188C941252DD58D0073208F /* API Endpoints */,
+				F188C945252DD6510073208F /* Services */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F188C941252DD58D0073208F /* API Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "API Endpoints";
+			sourceTree = "<group>";
+		};
+		F188C942252DD5A80073208F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		F188C943252DD5BC0073208F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F188C945252DD6510073208F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F188C946252DD6730073208F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F188C964252DD7920073208F /* Images */,
+				F188C965252DD7990073208F /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F188C947252DD67C0073208F /* UserInteface */ = {
+			isa = PBXGroup;
+			children = (
+				F188C90C252DD5000073208F /* Main.storyboard */,
+				F188C911252DD5040073208F /* LaunchScreen.storyboard */,
+			);
+			path = UserInteface;
+			sourceTree = "<group>";
+		};
+		F188C949252DD6FA0073208F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F188C914252DD5040073208F /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F188C964252DD7920073208F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F188C90F252DD5040073208F /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F188C965252DD7990073208F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F188C9A0252DF0B70073208F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F188C9A1252DF0CE0073208F /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F188C9B3252E00AC0073208F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F188C9B4252E00BA0073208F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F188C9B5252E01030073208F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F188C9B6252E010F0073208F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F188C9B7252E013B0073208F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F188CA06252E146B0073208F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1FB4535252E633C00A4C30F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F188C902252DD5000073208F /* WiproCodingExcercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F188C92D252DD5040073208F /* Build configuration list for PBXNativeTarget "WiproCodingExcercise" */;
+			buildPhases = (
+				F188C8FF252DD5000073208F /* Sources */,
+				F188C900252DD5000073208F /* Frameworks */,
+				F188C901252DD5000073208F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiproCodingExcercise;
+			productName = WiproCodingExcercise;
+			productReference = F188C903252DD5000073208F /* WiproCodingExcercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F188C918252DD5040073208F /* WiproCodingExcerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F188C930252DD5040073208F /* Build configuration list for PBXNativeTarget "WiproCodingExcerciseTests" */;
+			buildPhases = (
+				F188C915252DD5040073208F /* Sources */,
+				F188C916252DD5040073208F /* Frameworks */,
+				F188C917252DD5040073208F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F188C91B252DD5040073208F /* PBXTargetDependency */,
+			);
+			name = WiproCodingExcerciseTests;
+			productName = WiproCodingExcerciseTests;
+			productReference = F188C919252DD5040073208F /* WiproCodingExcerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F188C923252DD5040073208F /* WiproCodingExcerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F188C933252DD5040073208F /* Build configuration list for PBXNativeTarget "WiproCodingExcerciseUITests" */;
+			buildPhases = (
+				F188C920252DD5040073208F /* Sources */,
+				F188C921252DD5040073208F /* Frameworks */,
+				F188C922252DD5040073208F /* Resources */,
+				2F4DC044A3EE02143F647C4F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F188C926252DD5040073208F /* PBXTargetDependency */,
+			);
+			name = WiproCodingExcerciseUITests;
+			productName = WiproCodingExcerciseUITests;
+			productReference = F188C924252DD5040073208F /* WiproCodingExcerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F188C8FB252DD5000073208F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F188C902252DD5000073208F = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F188C918252DD5040073208F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F188C902252DD5000073208F;
+					};
+					F188C923252DD5040073208F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F188C902252DD5000073208F;
+					};
+				};
+			};
+			buildConfigurationList = F188C8FE252DD5000073208F /* Build configuration list for PBXProject "WiproCodingExcercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F188C8FA252DD5000073208F;
+			productRefGroup = F188C904252DD5000073208F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F188C902252DD5000073208F /* WiproCodingExcercise */,
+				F188C918252DD5040073208F /* WiproCodingExcerciseTests */,
+				F188C923252DD5040073208F /* WiproCodingExcerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F188C901252DD5000073208F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F188C913252DD5040073208F /* LaunchScreen.storyboard in Resources */,
+				F188C910252DD5040073208F /* Assets.xcassets in Resources */,
+				F188C90E252DD5000073208F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188C917252DD5040073208F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188C922252DD5040073208F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F4DC044A3EE02143F647C4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WiproCodingExcercise-WiproCodingExcerciseUITests/Pods-WiproCodingExcercise-WiproCodingExcerciseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WiproCodingExcercise-WiproCodingExcerciseUITests/Pods-WiproCodingExcercise-WiproCodingExcerciseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WiproCodingExcercise-WiproCodingExcerciseUITests/Pods-WiproCodingExcercise-WiproCodingExcerciseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F188C8FF252DD5000073208F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F188C907252DD5000073208F /* AppDelegate.swift in Sources */,
+				F188C909252DD5000073208F /* SceneDelegate.swift in Sources */,
+				F188C9A2252DF0CE0073208F /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188C915252DD5040073208F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F188C91E252DD5040073208F /* WiproCodingExcerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188C920252DD5040073208F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F188C929252DD5040073208F /* WiproCodingExcerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F188C91B252DD5040073208F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F188C902252DD5000073208F /* WiproCodingExcercise */;
+			targetProxy = F188C91A252DD5040073208F /* PBXContainerItemProxy */;
+		};
+		F188C926252DD5040073208F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F188C902252DD5000073208F /* WiproCodingExcercise */;
+			targetProxy = F188C925252DD5040073208F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F188C90C252DD5000073208F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F188C90D252DD5000073208F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F188C911252DD5040073208F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F188C912252DD5040073208F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F188C92B252DD5040073208F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F188C92C252DD5040073208F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F188C92E252DD5040073208F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = G6QK455AU5;
+				INFOPLIST_FILE = "WiproCodingExcercise/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soulierge.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Soulierge_Development;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F188C92F252DD5040073208F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = G6QK455AU5;
+				INFOPLIST_FILE = "WiproCodingExcercise/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soulierge.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Soulierge_Development;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F188C931252DD5040073208F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WiproCodingExcerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CodingExcercise.app.WiproCodingExcerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiproCodingExcercise.app/WiproCodingExcercise";
+			};
+			name = Debug;
+		};
+		F188C932252DD5040073208F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WiproCodingExcerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CodingExcercise.app.WiproCodingExcerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiproCodingExcercise.app/WiproCodingExcercise";
+			};
+			name = Release;
+		};
+		F188C934252DD5040073208F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WiproCodingExcerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CodingExcercise.app.WiproCodingExcerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiproCodingExcercise;
+			};
+			name = Debug;
+		};
+		F188C935252DD5040073208F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WiproCodingExcerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CodingExcercise.app.WiproCodingExcerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiproCodingExcercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F188C8FE252DD5000073208F /* Build configuration list for PBXProject "WiproCodingExcercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F188C92B252DD5040073208F /* Debug */,
+				F188C92C252DD5040073208F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F188C92D252DD5040073208F /* Build configuration list for PBXNativeTarget "WiproCodingExcercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F188C92E252DD5040073208F /* Debug */,
+				F188C92F252DD5040073208F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F188C930252DD5040073208F /* Build configuration list for PBXNativeTarget "WiproCodingExcerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F188C931252DD5040073208F /* Debug */,
+				F188C932252DD5040073208F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F188C933252DD5040073208F /* Build configuration list for PBXNativeTarget "WiproCodingExcerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F188C934252DD5040073208F /* Debug */,
+				F188C935252DD5040073208F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F188C8FB252DD5000073208F /* Project object */;
+}
