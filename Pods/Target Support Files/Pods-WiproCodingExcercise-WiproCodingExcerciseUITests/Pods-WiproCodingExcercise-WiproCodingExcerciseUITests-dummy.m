@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_WiproCodingExcercise_WiproCodingExcerciseUITests : NSObject
+@end
+@implementation PodsDummy_Pods_WiproCodingExcercise_WiproCodingExcerciseUITests
+@end
