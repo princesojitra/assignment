@@ -27,6 +27,9 @@
 		F1D54C2C252F24AB00867764 /* ProofOfConceptRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C2B252F24AB00867764 /* ProofOfConceptRouter.swift */; };
 		F1D54C31252F24BE00867764 /* ProofOfConceptService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C30252F24BE00867764 /* ProofOfConceptService.swift */; };
 		F1D54C36252F24D600867764 /* ProofOfConceptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C35252F24D600867764 /* ProofOfConceptViewController.swift */; };
+		F1D54C3B252F2CD900867764 /* ProofOfConceptInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C3A252F2CD900867764 /* ProofOfConceptInteractor.swift */; };
+		F1D54C40252F2D0100867764 /* ProofOfConceptPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C3F252F2D0100867764 /* ProofOfConceptPresenter.swift */; };
+		F1D54C4F252F3AB900867764 /* ProofOfConceptConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C4E252F3AB900867764 /* ProofOfConceptConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,9 @@
 		F1D54C2B252F24AB00867764 /* ProofOfConceptRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptRouter.swift; sourceTree = "<group>"; };
 		F1D54C30252F24BE00867764 /* ProofOfConceptService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptService.swift; sourceTree = "<group>"; };
 		F1D54C35252F24D600867764 /* ProofOfConceptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptViewController.swift; sourceTree = "<group>"; };
+		F1D54C3A252F2CD900867764 /* ProofOfConceptInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptInteractor.swift; sourceTree = "<group>"; };
+		F1D54C3F252F2D0100867764 /* ProofOfConceptPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptPresenter.swift; sourceTree = "<group>"; };
+		F1D54C4E252F3AB900867764 /* ProofOfConceptConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProofOfConceptConfigurator.swift; path = "WiproCodingExcercise/Classes/Modules/Proof Of Concepts/ProofOfConceptConfigurator.swift"; sourceTree = SOURCE_ROOT; };
 		FDE53CC72D8EF9BDB86D641A /* Pods-WiproCodingExcercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproCodingExcercise.debug.xcconfig"; path = "Target Support Files/Pods-WiproCodingExcercise/Pods-WiproCodingExcercise.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -213,6 +219,7 @@
 		F188C93F252DD5470073208F /* Proof Of Concepts */ = {
 			isa = PBXGroup;
 			children = (
+				F1D54C4E252F3AB900867764 /* ProofOfConceptConfigurator.swift */,
 				F188C942252DD5A80073208F /* Entities */,
 				F188C9B3252E00AC0073208F /* Router */,
 				F188C9B4252E00BA0073208F /* Service */,
@@ -338,6 +345,7 @@
 		F188C9B5252E01030073208F /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				F1D54C3A252F2CD900867764 /* ProofOfConceptInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -345,6 +353,7 @@
 		F188C9B6252E010F0073208F /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				F1D54C3F252F2D0100867764 /* ProofOfConceptPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -613,10 +622,13 @@
 				F1D54BF7252F110100867764 /* ProofConceptRow.swift in Sources */,
 				F1D54BF6252F110100867764 /* ProofConceptModel.swift in Sources */,
 				F1D54C22252F1BFF00867764 /* APIClient.swift in Sources */,
+				F1D54C4F252F3AB900867764 /* ProofOfConceptConfigurator.swift in Sources */,
 				F188C909252DD5000073208F /* SceneDelegate.swift in Sources */,
 				F1D54C18252F144F00867764 /* NetworkManager.swift in Sources */,
 				F1D54C31252F24BE00867764 /* ProofOfConceptService.swift in Sources */,
+				F1D54C3B252F2CD900867764 /* ProofOfConceptInteractor.swift in Sources */,
 				F1D54C36252F24D600867764 /* ProofOfConceptViewController.swift in Sources */,
+				F1D54C40252F2D0100867764 /* ProofOfConceptPresenter.swift in Sources */,
 				F188C9A2252DF0CE0073208F /* Constants.swift in Sources */,
 				F1D54C27252F1CCA00867764 /* Endpoints.swift in Sources */,
 				F1D54C17252F144F00867764 /* APIManager.swift in Sources */,

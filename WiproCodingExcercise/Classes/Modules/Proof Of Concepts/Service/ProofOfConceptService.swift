@@ -7,10 +7,12 @@
 
 import UIKit
 
+// ProofOfConcept Feed Service Helper Protocol
 protocol  ProofOfConceptServiceProtocol:class {
     func getProofOfConepts(completionHandler: @escaping ReesultComplitionBlock)
 }
 
+// ProofOfConcept Feed Service Helper Module 
 class ProofOfConceptService: ProofOfConceptServiceProtocol {
     
     static let shared = { ProofOfConceptService() }()

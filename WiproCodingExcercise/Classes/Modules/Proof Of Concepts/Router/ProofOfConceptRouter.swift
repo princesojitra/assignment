@@ -6,16 +6,17 @@
 //
 
 import UIKit
+
+//
 protocol  ProofOfConceptRouterProtocol:class {
     var navigationController:UINavigationController? {get}
-    func routeToDetail(with id: String)
+    func routeToDetail()
 }
 
 class ProofOfConceptRouter: ProofOfConceptRouterProtocol {
-
-   weak var navigationController: UINavigationController?
     
-    func routeToDetail(with id: String) {
-        
+    weak var navigationController: UINavigationController?
+    
+    func routeToDetail(){
     }
 }
