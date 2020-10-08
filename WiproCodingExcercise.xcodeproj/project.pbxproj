@@ -17,7 +17,7 @@
 		F188C91E252DD5040073208F /* WiproCodingExcerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C91D252DD5040073208F /* WiproCodingExcerciseTests.swift */; };
 		F188C929252DD5040073208F /* WiproCodingExcerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C928252DD5040073208F /* WiproCodingExcerciseUITests.swift */; };
 		F188C9A2252DF0CE0073208F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C9A1252DF0CE0073208F /* Constants.swift */; };
-		F1D54BF6252F110100867764 /* ProofConceptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54BF4252F110100867764 /* ProofConceptModel.swift */; };
+		F1D54BF6252F110100867764 /* ProofConceptFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54BF4252F110100867764 /* ProofConceptFeedModel.swift */; };
 		F1D54BF7252F110100867764 /* ProofConceptRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54BF5252F110100867764 /* ProofConceptRow.swift */; };
 		F1D54C17252F144F00867764 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C14252F144F00867764 /* APIManager.swift */; };
 		F1D54C18252F144F00867764 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C15252F144F00867764 /* NetworkManager.swift */; };
@@ -73,7 +73,7 @@
 		F188C928252DD5040073208F /* WiproCodingExcerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproCodingExcerciseUITests.swift; sourceTree = "<group>"; };
 		F188C92A252DD5040073208F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F188C9A1252DF0CE0073208F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		F1D54BF4252F110100867764 /* ProofConceptModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofConceptModel.swift; sourceTree = "<group>"; };
+		F1D54BF4252F110100867764 /* ProofConceptFeedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofConceptFeedModel.swift; sourceTree = "<group>"; };
 		F1D54BF5252F110100867764 /* ProofConceptRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofConceptRow.swift; sourceTree = "<group>"; };
 		F1D54C14252F144F00867764 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		F1D54C15252F144F00867764 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -257,7 +257,7 @@
 		F188C942252DD5A80073208F /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				F1D54BF4252F110100867764 /* ProofConceptModel.swift */,
+				F1D54BF4252F110100867764 /* ProofConceptFeedModel.swift */,
 				F1D54BF5252F110100867764 /* ProofConceptRow.swift */,
 			);
 			path = Entities;
@@ -618,7 +618,7 @@
 				F188C907252DD5000073208F /* AppDelegate.swift in Sources */,
 				F1D54BF7252F110100867764 /* ProofConceptRow.swift in Sources */,
 				F1D54C5E252F3D9B00867764 /* UIImageView+SDWebImage.swift in Sources */,
-				F1D54BF6252F110100867764 /* ProofConceptModel.swift in Sources */,
+				F1D54BF6252F110100867764 /* ProofConceptFeedModel.swift in Sources */,
 				F1D54C22252F1BFF00867764 /* APIClient.swift in Sources */,
 				F1D54C4F252F3AB900867764 /* ProofOfConceptConfigurator.swift in Sources */,
 				F1D54C59252F3CBB00867764 /* ProofOfConceptView.swift in Sources */,

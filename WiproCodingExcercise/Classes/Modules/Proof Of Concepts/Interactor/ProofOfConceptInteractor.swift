@@ -18,7 +18,7 @@ class ProofOfConceptInteractor: ProofOfConceptInteractorProtocol {
   
     private let service : ProofOfConceptServiceProtocol?
     var presenter : ProofOfConceptPresenter?
-    private var profocConcept:ProofConceptModel?
+    private var profocConcept:ProofConceptFeedModel?
     
     required init(withService profOfConcept:ProofOfConceptServiceProtocol ) {
         self.service = profOfConcept
@@ -31,7 +31,7 @@ class ProofOfConceptInteractor: ProofOfConceptInteractorProtocol {
                 self.presenter?.interactor(self, didRetriveFailProofOfConcpet: error)
                 
             case .success(let objects):
-                guard let prrofOfConceptResult = objects as? ProofConceptModel else {
+                guard let prrofOfConceptResult = objects as? ProofConceptFeedModel else {
                     self.presenter?.interactor(self, didRetriveFailProofOfConcpet: .jsonParsingFailure)
                     return
                 }

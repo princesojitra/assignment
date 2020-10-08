@@ -26,7 +26,7 @@ class ProofOfConceptService: ProofOfConceptServiceProtocol {
         }
         let endPointPath = configureEndointPath(withPath: Endpoints.ProofOfConcepts)
         let endpointProofOfConcept = APIEndpoint(path: endPointPath, method: .get,showLoader: show,completion: completionHandler)
-        apiClient.request(withEndpoint: endpointProofOfConcept, decodingType: ProofConceptModel.self)
+        apiClient.request(withEndpoint: endpointProofOfConcept, decodingType: ProofConceptFeedModel.self)
     }
     
     

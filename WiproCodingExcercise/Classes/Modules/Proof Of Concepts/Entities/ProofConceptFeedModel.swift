@@ -1,11 +1,11 @@
 
 //
-//	ProofConceptModel.swift
+//	ProofConceptFeedModel.swift
 //	Model file generated using JSONExport: https://github.com/Ahmed-Ali/JSONExport
 
 import Foundation
 
-struct ProofConceptModel : Codable {
+struct ProofConceptFeedModel : Codable {
 
 	let rows : [ProofConceptRow]?
 	let title : String?
