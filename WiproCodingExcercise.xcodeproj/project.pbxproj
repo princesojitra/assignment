@@ -24,6 +24,9 @@
 		F1D54C18252F144F00867764 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C15252F144F00867764 /* NetworkManager.swift */; };
 		F1D54C22252F1BFF00867764 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C21252F1BFF00867764 /* APIClient.swift */; };
 		F1D54C27252F1CCA00867764 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C26252F1CCA00867764 /* Endpoints.swift */; };
+		F1D54C2C252F24AB00867764 /* ProofOfConceptRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C2B252F24AB00867764 /* ProofOfConceptRouter.swift */; };
+		F1D54C31252F24BE00867764 /* ProofOfConceptService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C30252F24BE00867764 /* ProofOfConceptService.swift */; };
+		F1D54C36252F24D600867764 /* ProofOfConceptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C35252F24D600867764 /* ProofOfConceptViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,9 @@
 		F1D54C15252F144F00867764 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F1D54C21252F1BFF00867764 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		F1D54C26252F1CCA00867764 /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		F1D54C2B252F24AB00867764 /* ProofOfConceptRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptRouter.swift; sourceTree = "<group>"; };
+		F1D54C30252F24BE00867764 /* ProofOfConceptService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptService.swift; sourceTree = "<group>"; };
+		F1D54C35252F24D600867764 /* ProofOfConceptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptViewController.swift; sourceTree = "<group>"; };
 		FDE53CC72D8EF9BDB86D641A /* Pods-WiproCodingExcercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproCodingExcercise.debug.xcconfig"; path = "Target Support Files/Pods-WiproCodingExcercise/Pods-WiproCodingExcercise.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -316,6 +322,7 @@
 		F188C9B3252E00AC0073208F /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				F1D54C2B252F24AB00867764 /* ProofOfConceptRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -323,6 +330,7 @@
 		F188C9B4252E00BA0073208F /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				F1D54C30252F24BE00867764 /* ProofOfConceptService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -344,6 +352,7 @@
 		F188C9B7252E013B0073208F /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F1D54C35252F24D600867764 /* ProofOfConceptViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -606,9 +615,12 @@
 				F1D54C22252F1BFF00867764 /* APIClient.swift in Sources */,
 				F188C909252DD5000073208F /* SceneDelegate.swift in Sources */,
 				F1D54C18252F144F00867764 /* NetworkManager.swift in Sources */,
+				F1D54C31252F24BE00867764 /* ProofOfConceptService.swift in Sources */,
+				F1D54C36252F24D600867764 /* ProofOfConceptViewController.swift in Sources */,
 				F188C9A2252DF0CE0073208F /* Constants.swift in Sources */,
 				F1D54C27252F1CCA00867764 /* Endpoints.swift in Sources */,
 				F1D54C17252F144F00867764 /* APIManager.swift in Sources */,
+				F1D54C2C252F24AB00867764 /* ProofOfConceptRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
