@@ -10,11 +10,11 @@
 		62A9B1A4FB1C14805C23D15D /* Pods_WiproCodingExcerciseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B622CB471E278ED80B53223 /* Pods_WiproCodingExcerciseTests.framework */; };
 		C115AE29E74E761124C8B517 /* Pods_WiproCodingExcercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747B554CB0A16A2B9F6BA1C5 /* Pods_WiproCodingExcercise.framework */; };
 		EAA597FAF8FADF9A1608F079 /* Pods_WiproCodingExcercise_WiproCodingExcerciseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FDF7D46717005091E16993 /* Pods_WiproCodingExcercise_WiproCodingExcerciseUITests.framework */; };
+		F1223440253067D5007181F7 /* Seeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122343F253067D5007181F7 /* Seeds.swift */; };
 		F188C907252DD5000073208F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C906252DD5000073208F /* AppDelegate.swift */; };
 		F188C909252DD5000073208F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C908252DD5000073208F /* SceneDelegate.swift */; };
 		F188C910252DD5040073208F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F188C90F252DD5040073208F /* Assets.xcassets */; };
 		F188C913252DD5040073208F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F188C911252DD5040073208F /* LaunchScreen.storyboard */; };
-		F188C91E252DD5040073208F /* WiproCodingExcerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C91D252DD5040073208F /* WiproCodingExcerciseTests.swift */; };
 		F188C929252DD5040073208F /* WiproCodingExcerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C928252DD5040073208F /* WiproCodingExcerciseUITests.swift */; };
 		F188C9A2252DF0CE0073208F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188C9A1252DF0CE0073208F /* Constants.swift */; };
 		F1D54BF6252F110100867764 /* ProofConceptFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54BF4252F110100867764 /* ProofConceptFeedModel.swift */; };
@@ -32,6 +32,10 @@
 		F1D54C58252F3CBB00867764 /* ProofOfConceptTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C56252F3CBB00867764 /* ProofOfConceptTableCell.swift */; };
 		F1D54C59252F3CBB00867764 /* ProofOfConceptFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C57252F3CBB00867764 /* ProofOfConceptFeedView.swift */; };
 		F1D54C5E252F3D9B00867764 /* UIImageView+SDWebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54C5D252F3D9B00867764 /* UIImageView+SDWebImage.swift */; };
+		F1F86A7D252F863900F4E4FC /* ProofOfConceptFeedServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F86A7C252F863900F4E4FC /* ProofOfConceptFeedServiceTest.swift */; };
+		F1F86A82252F865600F4E4FC /* ProofOfConceptFeedInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F86A81252F865600F4E4FC /* ProofOfConceptFeedInteractorTest.swift */; };
+		F1F86A8A252F868100F4E4FC /* ProofOfConceptFeedPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F86A89252F868100F4E4FC /* ProofOfConceptFeedPresenterTest.swift */; };
+		F1F86AC2252F911100F4E4FC /* APIClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F86AC1252F911100F4E4FC /* APIClientTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,7 @@
 		8C5F5B987C556AED75E58B99 /* Pods-WiproCodingExcercise-WiproCodingExcerciseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproCodingExcercise-WiproCodingExcerciseUITests.debug.xcconfig"; path = "Target Support Files/Pods-WiproCodingExcercise-WiproCodingExcerciseUITests/Pods-WiproCodingExcercise-WiproCodingExcerciseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CBDB41A95EC5A04CEF0C835C /* Pods-WiproCodingExcercise-WiproCodingExcerciseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproCodingExcercise-WiproCodingExcerciseUITests.release.xcconfig"; path = "Target Support Files/Pods-WiproCodingExcercise-WiproCodingExcerciseUITests/Pods-WiproCodingExcercise-WiproCodingExcerciseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E0FDF7D46717005091E16993 /* Pods_WiproCodingExcercise_WiproCodingExcerciseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiproCodingExcercise_WiproCodingExcerciseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F122343F253067D5007181F7 /* Seeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seeds.swift; sourceTree = "<group>"; };
 		F188C903252DD5000073208F /* WiproCodingExcercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiproCodingExcercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F188C906252DD5000073208F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F188C908252DD5000073208F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,7 +72,6 @@
 		F188C912252DD5040073208F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F188C914252DD5040073208F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F188C919252DD5040073208F /* WiproCodingExcerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiproCodingExcerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F188C91D252DD5040073208F /* WiproCodingExcerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproCodingExcerciseTests.swift; sourceTree = "<group>"; };
 		F188C91F252DD5040073208F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F188C924252DD5040073208F /* WiproCodingExcerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiproCodingExcerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F188C928252DD5040073208F /* WiproCodingExcerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproCodingExcerciseUITests.swift; sourceTree = "<group>"; };
@@ -88,6 +92,12 @@
 		F1D54C56252F3CBB00867764 /* ProofOfConceptTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptTableCell.swift; sourceTree = "<group>"; };
 		F1D54C57252F3CBB00867764 /* ProofOfConceptFeedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProofOfConceptFeedView.swift; sourceTree = "<group>"; };
 		F1D54C5D252F3D9B00867764 /* UIImageView+SDWebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+SDWebImage.swift"; sourceTree = "<group>"; };
+		F1F86A7C252F863900F4E4FC /* ProofOfConceptFeedServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofOfConceptFeedServiceTest.swift; sourceTree = "<group>"; };
+		F1F86A81252F865600F4E4FC /* ProofOfConceptFeedInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofOfConceptFeedInteractorTest.swift; sourceTree = "<group>"; };
+		F1F86A89252F868100F4E4FC /* ProofOfConceptFeedPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofOfConceptFeedPresenterTest.swift; sourceTree = "<group>"; };
+		F1F86AC1252F911100F4E4FC /* APIClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTest.swift; sourceTree = "<group>"; };
+		F1F86AFF252F99C600F4E4FC /* WiproCodingExcercise-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WiproCodingExcercise-Bridging-Header.h"; sourceTree = "<group>"; };
+		F1F86B0B252F9A3C00F4E4FC /* WiproCodingExcerciseTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WiproCodingExcerciseTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		FDE53CC72D8EF9BDB86D641A /* Pods-WiproCodingExcercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproCodingExcercise.debug.xcconfig"; path = "Target Support Files/Pods-WiproCodingExcercise/Pods-WiproCodingExcercise.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,8 +188,11 @@
 		F188C91C252DD5040073208F /* WiproCodingExcerciseTests */ = {
 			isa = PBXGroup;
 			children = (
-				F188C91D252DD5040073208F /* WiproCodingExcerciseTests.swift */,
+				F1F86B0B252F9A3C00F4E4FC /* WiproCodingExcerciseTests-Bridging-Header.h */,
+				F1F86A9C252F86CE00F4E4FC /* APIManager */,
+				F1F86A76252F855700F4E4FC /* Proof Of Concepts */,
 				F188C91F252DD5040073208F /* Info.plist */,
+				F122343F253067D5007181F7 /* Seeds.swift */,
 			);
 			path = WiproCodingExcerciseTests;
 			sourceTree = "<group>";
@@ -277,7 +290,6 @@
 			isa = PBXGroup;
 			children = (
 				F188C964252DD7920073208F /* Images */,
-				F188C965252DD7990073208F /* Fonts */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -294,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				F188C914252DD5040073208F /* Info.plist */,
+				F1F86AFF252F99C600F4E4FC /* WiproCodingExcercise-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -304,13 +317,6 @@
 				F188C90F252DD5040073208F /* Assets.xcassets */,
 			);
 			path = Images;
-			sourceTree = "<group>";
-		};
-		F188C965252DD7990073208F /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 		F188C9A0252DF0B70073208F /* Constants */ = {
@@ -368,6 +374,48 @@
 				F1D54C57252F3CBB00867764 /* ProofOfConceptFeedView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F1F86A76252F855700F4E4FC /* Proof Of Concepts */ = {
+			isa = PBXGroup;
+			children = (
+				F1F86A79252F85AD00F4E4FC /* Presenter */,
+				F1F86A78252F859700F4E4FC /* Interactor */,
+				F1F86A77252F859100F4E4FC /* Service */,
+			);
+			path = "Proof Of Concepts";
+			sourceTree = "<group>";
+		};
+		F1F86A77252F859100F4E4FC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F1F86A7C252F863900F4E4FC /* ProofOfConceptFeedServiceTest.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F1F86A78252F859700F4E4FC /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F1F86A81252F865600F4E4FC /* ProofOfConceptFeedInteractorTest.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F1F86A79252F85AD00F4E4FC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F1F86A89252F868100F4E4FC /* ProofOfConceptFeedPresenterTest.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F1F86A9C252F86CE00F4E4FC /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				F1F86AC1252F911100F4E4FC /* APIClientTest.swift */,
+			);
+			path = APIManager;
 			sourceTree = "<group>";
 		};
 		F1FB4535252E633C00A4C30F /* Extensions */ = {
@@ -453,6 +501,7 @@
 					};
 					F188C918252DD5040073208F = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 						TestTargetID = F188C902252DD5000073208F;
 					};
 					F188C923252DD5040073208F = {
@@ -640,7 +689,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F188C91E252DD5040073208F /* WiproCodingExcerciseTests.swift in Sources */,
+				F1F86A8A252F868100F4E4FC /* ProofOfConceptFeedPresenterTest.swift in Sources */,
+				F1F86AC2252F911100F4E4FC /* APIClientTest.swift in Sources */,
+				F1223440253067D5007181F7 /* Seeds.swift in Sources */,
+				F1F86A7D252F863900F4E4FC /* ProofOfConceptFeedServiceTest.swift in Sources */,
+				F1F86A82252F865600F4E4FC /* ProofOfConceptFeedInteractorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,6 +866,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.soulierge.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = Soulierge_Development;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/princemira/Desktop/assignment/WiproCodingExcercise/Supporting Files/WiproCodingExcercise-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -836,6 +890,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.soulierge.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = Soulierge_Development;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/princemira/Desktop/assignment/WiproCodingExcercise/Supporting Files/WiproCodingExcercise-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -845,11 +900,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 532B150268DFEE811645DA84 /* Pods-WiproCodingExcerciseTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReachabilitySwift/Reachability.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+					$CONFIGURATION_TEMP_DIR/YourProject.build/DerivedSources,
+				);
 				INFOPLIST_FILE = WiproCodingExcerciseTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -857,6 +921,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CodingExcercise.app.WiproCodingExcerciseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WiproCodingExcerciseTests/WiproCodingExcerciseTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiproCodingExcercise.app/WiproCodingExcercise";
@@ -867,11 +935,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5102BB881148456950F660EA /* Pods-WiproCodingExcerciseTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReachabilitySwift/Reachability.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+					$CONFIGURATION_TEMP_DIR/YourProject.build/DerivedSources,
+				);
 				INFOPLIST_FILE = WiproCodingExcerciseTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -879,6 +956,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CodingExcercise.app.WiproCodingExcerciseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WiproCodingExcerciseTests/WiproCodingExcerciseTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiproCodingExcercise.app/WiproCodingExcercise";
@@ -889,8 +969,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8C5F5B987C556AED75E58B99 /* Pods-WiproCodingExcercise-WiproCodingExcerciseUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WiproCodingExcerciseUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -899,6 +979,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CodingExcercise.app.WiproCodingExcerciseUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = WiproCodingExcercise;
@@ -909,8 +991,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBDB41A95EC5A04CEF0C835C /* Pods-WiproCodingExcercise-WiproCodingExcerciseUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WiproCodingExcerciseUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -919,6 +1001,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CodingExcercise.app.WiproCodingExcerciseUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = WiproCodingExcercise;

@@ -46,7 +46,7 @@ class ProofOfConceptFeedViewController: UIViewController {
         self.profOfConceptView?.tableView.alpha = 0.0
         self.profOfConceptView?.hidePlaceholder()
         // Informs the interactor that the View is ready to receive data.
-        self.interactor?.fatchFeedsData(withLoader: true)
+        self.interactor?.fetchFeedsData(withLoader: true)
         
     }
 }
@@ -79,7 +79,7 @@ extension ProofOfConceptFeedViewController : ProofOfConceptFeedViewProtocol {
 extension ProofOfConceptFeedViewController {
 @objc func refreshData(_ refreshControl: UIRefreshControl) {
     self.view.endEditing(true)
-    self.interactor?.fatchFeedsData(withLoader: false)
+    self.interactor?.fetchFeedsData(withLoader: false)
     
     }
 }

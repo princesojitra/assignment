@@ -95,7 +95,7 @@ class APIEndpoint :APIEndPointProtocol {
     }
 }
 
-class APIManager: NSObject {
+class APIManager {
     
     static let shared = { APIManager() }()
     

@@ -7,12 +7,13 @@
 
 import UIKit
 
-class APIClient: NSObject {
+class APIClient {
     
     private let urlSession = URLSession.shared
+    var cachedUrl: URL?
     
     // Fetch data from the server with dynamic codeable model
-    func request<T:APIEndpoint,U:Decodable>(withEndpoint endpoint:T, decodingType:U.Type?) {
+    func request<T:APIEndpoint,U:Decodable>(withEndpoint endpoint:T, decodingType:U.Type) {
         
         print("******* API Log ******")
         print("URL : ", endpoint.path)
@@ -31,6 +32,7 @@ class APIClient: NSObject {
                 endpoint.resultCompletion?(.failure(.failedToCreateURL))
                 return
             }
+            self.cachedUrl = url
             
             var request = URLRequest(url: url)
             request.httpMethod = endpoint.method.rawValue
@@ -70,19 +72,13 @@ class APIClient: NSObject {
                     return
                 }
                 
-                
                 let jsonString = String(decoding: data, as: UTF8.self)
                 guard let jsonData = jsonString.data(using: .utf8) else {
                     endpoint.resultCompletion?(.failure(.jsonParsingFailure))
                     return
                 }
                 
-                guard let decodeType = decodingType else {
-                    endpoint.resultCompletion?(.failure(.invalidData))
-                    return
-                }
-                
-                guard let genricResponseModel =  self.decodeResponse(dataToDeocde: jsonData, decodingType: decodeType) else {
+                guard let genricResponseModel =  self.decodeResponse(dataToDeocde: jsonData, decodingType: decodingType) else {
                     endpoint.resultCompletion?(.failure(.invalidData))
                     return
                 }

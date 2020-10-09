@@ -4,7 +4,7 @@
 
 import Foundation
 
-struct ProofConceptRow : Codable {
+struct ProofConceptRow : Codable,Equatable {
 
 	let descriptionField : String?
 	let imageHref : String?
