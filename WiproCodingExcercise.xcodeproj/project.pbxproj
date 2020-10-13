@@ -866,7 +866,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.soulierge.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = Soulierge_Development;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/princemira/Desktop/assignment/WiproCodingExcercise/Supporting Files/WiproCodingExcercise-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "WiproCodingExcercise/Supporting Files/WiproCodingExcercise-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -890,7 +890,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.soulierge.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = Soulierge_Development;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/princemira/Desktop/assignment/WiproCodingExcercise/Supporting Files/WiproCodingExcercise-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "WiproCodingExcercise/Supporting Files/WiproCodingExcercise-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
