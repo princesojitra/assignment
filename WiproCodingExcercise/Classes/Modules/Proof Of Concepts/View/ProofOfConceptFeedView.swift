@@ -31,6 +31,18 @@ class ProofOfConceptFeedView: UIView {
             self.placeholderLabel.alpha = 0.0
         }
     }
+   
+    public func showRetryButton() {
+        UIView.animate(withDuration: 0.3) {
+            self.retryButon.alpha = 1.0
+        }
+    }
+    
+    public func hideRetryButton() {
+        UIView.animate(withDuration: 0.3) {
+            self.retryButon.alpha = 0.0
+        }
+    }
     
     public func reloadTableView() {
         self.tableView.reloadData()
@@ -58,6 +70,20 @@ class ProofOfConceptFeedView: UIView {
         return label
     }()
     
+    lazy var retryButon: UIButton = {
+        let btn = UIButton()
+        btn.setTitle("Retry", for: .normal)
+        btn.setTitleColor(.white, for: .normal)
+        btn.backgroundColor = .lightGray
+        btn.layer.cornerRadius = 10.0
+        btn.layer.borderWidth = 5.0
+        btn.clipsToBounds = true
+        btn.isUserInteractionEnabled = true
+        btn.layer.borderColor = UIColor.white.cgColor
+        btn.translatesAutoresizingMaskIntoConstraints = false
+        return btn
+    }()
+    
     lazy var refreshControl : UIRefreshControl = {
         let refreshControl = UIRefreshControl()
         return refreshControl
@@ -75,6 +101,7 @@ extension ProofOfConceptFeedView {
         
         self.addSubview(tableView)
         self.addSubview(placeholderLabel)
+        self.addSubview(retryButon)
         
         NSLayoutConstraint.activate([
             tableView.leftAnchor.constraint(equalTo: self.safeAreaLayoutGuide.leftAnchor),
@@ -86,6 +113,13 @@ extension ProofOfConceptFeedView {
         NSLayoutConstraint.activate([
             placeholderLabel.centerXAnchor.constraint(equalTo: self.centerXAnchor),
             placeholderLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor),
+        ])
+        
+        NSLayoutConstraint.activate([
+            retryButon.centerXAnchor.constraint(equalTo: self.placeholderLabel.centerXAnchor),
+            retryButon.topAnchor.constraint(equalTo: self.placeholderLabel.bottomAnchor,constant: 10.0),
+            retryButon.widthAnchor.constraint(equalToConstant: 80.0),
+            retryButon.heightAnchor.constraint(equalToConstant: 40.0)
         ])
     }
     

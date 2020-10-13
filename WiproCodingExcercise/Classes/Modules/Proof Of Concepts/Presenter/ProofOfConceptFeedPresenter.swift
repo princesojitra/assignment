@@ -36,8 +36,14 @@ extension ProofOfConceptFeedPresenter :ProofOfConceptFeedPresenterProtocol {
     
     func interactor( didRetriveFailProofOfConcpet error: APIError) {
         
-        self.viewController?.presenter(navBarTitleViewModel: NavBarTitileViewModel(title: ""))
-        self.viewController?.presenter(profOfConceptItmesViewModel: ProofOfConceptItemsViewModel(items: [ProofConceptRow]()))
+        if error == .internetConecctionNotAvailable {
+            self.viewController?.presenter(navBarTitleViewModel: NavBarTitileViewModel(title: ""))
+            self.viewController?.presenterInternetConnectionError()
+        }
+        else {
+            self.viewController?.presenter(navBarTitleViewModel: NavBarTitileViewModel(title: ""))
+            self.viewController?.presenter(profOfConceptItmesViewModel: ProofOfConceptItemsViewModel(items: [ProofConceptRow]()))
+        }
     }
     
     func interactor(didRetriveProofOfConcpet profOfConcept: ProofConceptFeedModel) {
