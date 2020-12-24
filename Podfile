@@ -6,6 +6,7 @@ target 'WiproCodingExcercise' do
   use_frameworks!
   pod 'ReachabilitySwift'
   pod 'SDWebImage', '~> 5.5.2'
+  pod 'SwiftLint'
   # Pods for WiproCodingExcercise
 
   target 'WiproCodingExcerciseTests' do

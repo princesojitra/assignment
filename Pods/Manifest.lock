@@ -3,20 +3,24 @@ PODS:
   - SDWebImage (5.5.2):
     - SDWebImage/Core (= 5.5.2)
   - SDWebImage/Core (5.5.2)
+  - SwiftLint (0.42.0)
 
 DEPENDENCIES:
   - ReachabilitySwift
   - SDWebImage (~> 5.5.2)
+  - SwiftLint
 
 SPEC REPOS:
   trunk:
     - ReachabilitySwift
     - SDWebImage
+    - SwiftLint
 
 SPEC CHECKSUMS:
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
+  SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
 
-PODFILE CHECKSUM: 50db34c7093384b7075f2dafac62a44d66136ae5
+PODFILE CHECKSUM: d3910e53de9f90bd8ed0ccab0af1f23a0ed5bb4c
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.10.0
